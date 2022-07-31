@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-image: url("./resources/pokeBackground.jpeg");
+    background-size: cover;
+}
+
+.pokedex {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    position: absolute;
+  }
+  .imgA1 {
+    z-index: 1;
+    height: 800px;
+    left: 27vw;
+  }
+  .imgB1 {
+    padding-left: 124px;
+    padding-top: 33px;
+    z-index: 3;
+    height: 383px;
+    left: 33vw;
+  }
